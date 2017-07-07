@@ -1,0 +1,19 @@
+{
+  "name": "crawlib",
+  "version": "1.0.1",
+  "description": "A library of functions for web crawling using BFS.",
+  "main": "lib/lib.crawler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "iced -c --runtime inline -o lib/ src/lib.crawler.iced"
+  },
+  "keywords": [
+    "crawler"
+  ],
+  "author": "dannynpmjs",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "request": "^2.81.0"
+  }
+}
